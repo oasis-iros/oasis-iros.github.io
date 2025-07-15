@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Website for paper OASIS: Real-Time Opti-Acoustic Sensing for Intervention Systems in Unstructured Environments.">
+  <meta name="keywords" content="OASIS, opti acoustic, underwater sensing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OASIS: Real-Time Opti-Acoustic Sensing for Intervention Systems in Unstructured Environments</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y2VCQ6Q5X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0Y2VCQ6Q5X');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/Robot-icon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/video_comparison.js" defer></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">OASIS: Real-Time Opti-Acoustic Sensing for Intervention Systems in Unstructured Environments</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://amyphung.github.io">Amy Phung</a><sup>1, 2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=NBVg87gAAAAJ&hl=en">Richard Camilli</a><sup>2</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>MIT</span>,
+            <span class="author-block"><sup>2</sup>Woods Hole Oceanographic Institution</span>
+          </div>
+
+          <h1 class="is-size-4 conference"><strong>IROS 2025</strong></h1>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="./static/pdf/blah.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/8Vq9NFSO1cE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/chaos-whoi/oasis_iros"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code & Data</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <span class="dmethod">OASIS</span> is an opti-acoustic fusion method that integrates data from optical images with voxel carving techniques to achieve real-time 3D reconstruction unstructured underwater workspaces.
+      </h2>
+      <video id="teaser" width="100%" playsinline controls autoplay loop muted>
+          <source src="./static/videos/teaser.mp4" type="video/mp4" />
+      </video>
+      <img src="./static/images/tank-photo.png"
+        width="39%"
+        alt="Overview."/>
+      <video id="teaser" width="59%" playsinline controls autoplay loop muted>
+          <source src="./static/videos/reconstruction.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+
+          High resolution underwater 3D scene reconstruction is crucial for various applications, 
+          including construction, infrastructure maintenance, monitoring, exploration, and scientific investigation. 
+          
+          Prior work has leveraged the complementary sensing modalities of imaging sonars and optical cameras 
+          for opti-acoustic 3D scene reconstruction, demonstrating improved results over methods which rely solely on either sensor. 
+          
+          However, while most existing approaches focus on offline reconstruction, real-time spatial awareness is
+          essential for both autonomous and piloted underwater vehicle operations.
+           
+          This paper presents OASIS, an opti-acoustic fusion method that integrates data from optical images with voxel carving
+          techniques to achieve real-time 3D reconstruction unstructured underwater workspaces. 
+          
+          Our approach utilizes an “eye-in-hand” configuration, which leverages the dexterity of robotic
+          manipulator arms to capture multiple workspace views across a short baseline. 
+          
+          We validate OASIS through tank-based experiments and present qualitative and quantitative results
+          that highlight its utility for underwater manipulation tasks.           
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{phung2025oasis,
+  author    = {Phung, Amy and Camilli, Richard},
+  title     = {OASIS: Real-Time Opti-Acoustic Sensing for Intervention Systems in Unstructured Environments},
+  booktitle   = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2025},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+      <div class="columns is-centered">
+          <div class="column">
+              <div class="content has-text-centered">
+                  <p>
+                      Website template based on the project page for <a href="https://seasplat.github.io/">SeaSplat</a>.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
